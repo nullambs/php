@@ -1,0 +1,21 @@
+{
+  "name": "nullambs",
+  "version": "1.0.0",
+  "description": "my personal web page",
+  "license": "ISC",
+  "author": "nullambs <null@ambs.cc>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4",
+    "vite-plugin-singlefile": "^2.3.0",
+    "vite-plugin-top-level-await": "^1.6.0",
+    "vite-plugin-wasm": "^3.5.0"
+  },
+  "dependencies": {
+    "@nullambs/shtml": "^0.0.3"
+  }
+}

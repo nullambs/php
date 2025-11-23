@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="UTF-8">
+    <title>[null ambs]</title>
+  </head>
+  <body>
+    <div shtml>
+      div#header.hidden {
+        span.left { a [ href="#home" ] { "[null ambs]" } }
+        div.right {
+          a [ href="#projects" ] { "«projects»" }
+          a [ href="#blog" ] { "«blog»" }
+          a [ href="#keylogger" ] { "«keylogger»" }
+        }
+      }
+
+      div#page {
+        section#home.screen { 
+          h1 { span.popout { a [ href="#home" ] { "[null ambs]" } } }
+          h2 { span.popout { "check out my..." } }
+          div.links {
+            div.popout.hov { "-&nbsp;" a [ href="#projects" ] { "«projects»" } }
+            div.popout.hov { "-&nbsp;" a [ href="#blog" ] { "«blog»" } }
+            div.popout.hov { "-&nbsp;" a [ href="#keylogger" ] { "«keylogger»" } }
+          }
+        }
+
+        section#projects.screen {
+          h1 { span.popout { "«projects»" } }
+          div.links {
+            div.popout.hov { "-&nbsp;" a [ href="https://github.com/nullambs/shtml" ] { "shtml" span.desc { "&nbsp;&nbsp; CS[S]-like [HTML]" } } }
+            div.popout.hov { "-&nbsp;" a [ href="https://github.com/nullambs/muffing" ] { "muffing" span.desc { "&nbsp;&nbsp; [MU]lti-[F]eatured [F]iels serving th[ING]" } } }
+          }
+        }
+
+        section#keylogger.screen {
+          h1 { span.popout { "«keylogger»" } }
+          h2 { span.popout { span.placeholder { "try typing something.." } } }
+        }
+
+        section#blog.screen {
+          h1 { span.popout { "«blog»" } }
+          h2 { span.popout { "will be available... soon." } }
+        }
+      }
+
+      div#footer.hidden { 
+        span { "powered by&nbsp;" a [ href="https://github.com/nullambs/shtml" ] { "shtml" }  }
+      }
+    </div>
+    <div id="cover"></div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
